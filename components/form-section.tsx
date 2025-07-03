@@ -27,7 +27,7 @@ export const FormSection = () => {
             <span className="text-[#3E3ED8] font-medium">Character Name</span>
           }
           classNames={{
-            inputWrapper: "border-[#B2B2EF] border-2 rounded-md",
+            inputWrapper: "border-[#B2B2EF] border-2 rounded-md text-[#3E3ED8]",
           }}
           labelPlacement="outside"
           variant="bordered"

@@ -44,7 +44,7 @@ export default function RootLayout({
         <Image
           src="/decoration-right.png"
           alt="Stars background"
-          className="absolute top-0 right-0 w-[300px] h-auto pointer-events-none select-none"
+          className="absolute top-0 right-0 w-auto h-[70%] pointer-events-none select-none"
           width={300}
           height={300}
         />
