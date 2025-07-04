@@ -41,7 +41,12 @@ export const FormSection = () => {
         <h3 className="font-semibold text-[16px] text-[#3E3ED8]">
           Choose how to bring your avatar to life
         </h3>
-        <Button className="flex justify-start items-center font-semibold text-base h-11 text-[#3E3ED8] border-white border shadow-md bg-[#3E3ED8]/10">
+        <Button
+          className="flex justify-start items-center font-semibold text-base h-11 text-[#3E3ED8] border-white border bg-[#3E3ED8]/10"
+          style={{
+            boxShadow: `0px 1px 2px 0px #7828C866`,
+          }}
+        >
           <Image
             src="/write.svg"
             alt="write icon"
@@ -52,7 +57,12 @@ export const FormSection = () => {
           />{" "}
           Upload a picture
         </Button>
-        <Button className="flex justify-start items-center font-semibold text-base  h-11 text-[#3E3ED8] bg-[#3E3ED8]/10 border-white border shadow-md">
+        <Button
+          className="flex justify-start items-center font-semibold text-base  h-11 text-[#3E3ED8] bg-[#3E3ED8]/10 border-white border"
+          style={{
+            boxShadow: `0px 1px 2px 0px #7828C866`,
+          }}
+        >
           <Image
             src="/startContent.svg"
             alt="write icon"
